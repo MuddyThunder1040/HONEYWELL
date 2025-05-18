@@ -4,13 +4,13 @@ resource "local_file" "cat" {
 }
 
 resource "random_pet" "my_pet" {
-  prefix = var.prefix
+  prefix    = var.prefix
   separator = var.separator
-    length   = var.length
+  length    = var.length
 }
 
 # resource "aws_instance" "webserver" {
 #     ami          = "ami-0c55b159cbfafe1f0"
 #     instance_type = "t2.micro"
-  
+
 # }
