@@ -1,7 +1,7 @@
 variable "prefix" {
   description = "Prefix for all resources"
   type        = string
-  default     = "Animal"
+  default     = "animal"
 
 }
 
@@ -32,3 +32,4 @@ variable "file_content" {
   default     = "[lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua]"
 
 }
+
